@@ -10,6 +10,6 @@ int main (int argc, char** args)
 	b='1400';
 	//cout << a;
 	//cout << b;
-	cout << "a = "<< a <<"\nb="<<b << endl; 
+	cout << "a="<< a <<"\nb="<<b << endl; 
 	return 0;	
 }
