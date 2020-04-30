@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "C:/Qt/Tools/mingw730_32/bin/gcc.exe")
+set(CMAKE_C_COMPILER "D:/Qt/Tools/mingw530_32/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "7.3.0")
+set(CMAKE_C_COMPILER_VERSION "5.3.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
@@ -17,11 +17,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Qt/Tools/mingw730_32/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "C:/Qt/Tools/mingw730_32/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Qt/Tools/mingw730_32/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "C:/Qt/Tools/mingw730_32/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Qt/Tools/mingw730_32/bin/ld.exe")
+set(CMAKE_AR "D:/Qt/Tools/mingw530_32/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "D:/Qt/Tools/mingw530_32/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Qt/Tools/mingw530_32/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/Qt/Tools/mingw530_32/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Qt/Tools/mingw530_32/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -70,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Qt/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include;C:/Qt/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed;C:/Qt/Tools/mingw730_32/i686-w64-mingw32/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include;D:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed;D:/Qt/Tools/mingw530_32/i686-w64-mingw32/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Qt/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0;C:/Qt/Tools/mingw730_32/lib/gcc;C:/Qt/Tools/mingw730_32/i686-w64-mingw32/lib;C:/Qt/Tools/mingw730_32/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "D:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0;D:/Qt/Tools/mingw530_32/lib/gcc;D:/Qt/Tools/mingw530_32/i686-w64-mingw32/lib;D:/Qt/Tools/mingw530_32/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

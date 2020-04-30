@@ -80,15 +80,15 @@ CMakeFiles/categorizer.dir/src/categorizer.cpp.obj: CMakeFiles/categorizer.dir/f
 CMakeFiles/categorizer.dir/src/categorizer.cpp.obj: CMakeFiles/categorizer.dir/includes_CXX.rsp
 CMakeFiles/categorizer.dir/src/categorizer.cpp.obj: C:/Users/admin/Desktop/project/4/1/src/categorizer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\project\4\build-1-Desktop_Qt_5_14_2_MinGW_32_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/categorizer.dir/src/categorizer.cpp.obj"
-	C:\Qt\Tools\mingw730_32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\categorizer.dir\src\categorizer.cpp.obj -c C:\Users\admin\Desktop\project\4\1\src\categorizer.cpp
+	D:\Qt\Tools\mingw530_32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\categorizer.dir\src\categorizer.cpp.obj -c C:\Users\admin\Desktop\project\4\1\src\categorizer.cpp
 
 CMakeFiles/categorizer.dir/src/categorizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/categorizer.dir/src/categorizer.cpp.i"
-	C:\Qt\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\project\4\1\src\categorizer.cpp > CMakeFiles\categorizer.dir\src\categorizer.cpp.i
+	D:\Qt\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\project\4\1\src\categorizer.cpp > CMakeFiles\categorizer.dir\src\categorizer.cpp.i
 
 CMakeFiles/categorizer.dir/src/categorizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/categorizer.dir/src/categorizer.cpp.s"
-	C:\Qt\Tools\mingw730_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\project\4\1\src\categorizer.cpp -o CMakeFiles\categorizer.dir\src\categorizer.cpp.s
+	D:\Qt\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\project\4\1\src\categorizer.cpp -o CMakeFiles\categorizer.dir\src\categorizer.cpp.s
 
 # Object files for target categorizer
 categorizer_OBJECTS = \

@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\categorizer.dir/objects.a
-C:\Qt\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\categorizer.dir/objects.a @CMakeFiles\categorizer.dir\objects1.rsp
-C:\Qt\Tools\mingw530_32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\categorizer.dir/objects.a -Wl,--no-whole-archive  -o categorizer.exe -Wl,--out-implib,libcategorizer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\categorizer.dir\linklibs.rsp
