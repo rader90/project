@@ -8,5 +8,6 @@ int main ()
 	cout << "Privet!" << endl;
 	cout << "Kak dela?" << endl;
 	cout << "Как дела?" << endl;
+	
 	system("pause");
 }
