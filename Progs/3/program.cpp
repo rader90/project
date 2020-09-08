@@ -12,5 +12,6 @@ int main ()
 	x=x%10;
 	cout << "x=" << x << "\n";
 	system("pause");
+	return 0;
 }
 
