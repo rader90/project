@@ -15,10 +15,10 @@ int main(void){
     cout << "¬ведите число b: ";
     cin >> b;
     if(a<=b){
-	for(i=2;i<=b;i+=2){
-		if(a<=i){
+	for(i=2;i<=b&&a<=i;i+=2){
+		
 		cout << i << " ";
-		};
+		
 	};
 }else{
 	cout << "¬ведите a<b" << endl;

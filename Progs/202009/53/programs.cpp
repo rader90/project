@@ -11,12 +11,12 @@ int main(void){
     int a,b,i;
     cout << "¬ведите число a: ";
     cin >> a;
-    for(i=0;i<a;++i){
-        if(i%2==0){
-			cout << "0 ";
-        }else{
-			cout << "1 ";
-		};
+    for(b=i=0;i<a;++i){
+        ++b;
+        cout << b << " ";
+		if(b==3){
+        	b=0;
+		}
     };
 	system("pause");
     return 0;

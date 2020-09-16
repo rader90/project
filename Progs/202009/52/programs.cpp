@@ -10,15 +10,15 @@ int main(void){
     // ќбъ€вление переменных
     int a,b,i;
     do{
-    cout << "¬ведите число a: ";
-    cin >> a;
+    cout << "¬ведите число i: ";
+    cin >> i;
     cout << "¬ведите число b: ";
     cin >> b;
     if(a<=b){
-    for(i=1;i<=b;++i){
-        if(a<=i){
+    for(i;i<=b;++i){
+        
         cout << i*i << " ";
-        };
+        
     };
 	}else{
     cout << "¬ведите a<b" << endl;
