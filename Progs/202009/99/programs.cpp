@@ -11,20 +11,26 @@ int main(void){
 	system("chcp 1251 > null");
 	// ќбъ€вление переменных
 	int a,b,i,x,s,j,n;
+	b=1;
 	srand(time(0));
-	vector <int> vec;
+	vector <int> vec(0);
 	cout << "¬ведите длину массива : ";
 	cin >> n;
-	vec.assign(n);
-	cout << "\n" << vec.size() << endl;
 	for(i=0;i<n;++i){
-		a=rand()%10+1;
-		vec[i]=a;
+		cout << "¬ведите число : ";
+		cin >> a;
+		vec.push_back(a);
 	};
 	for(i=0;i<n;++i){
 		cout << vec[i] << " ";
 	};
-	cout << "\n" << vec.size() << endl;
+		a=(vec.size())/2;
+	for(i=0,j=vec.size()-1;i<a;++i,--j){
+		if(vec[i]!=vec[j]){
+			b=0;
+		}
+	}
+	cout << "\n" << b << endl;
 	system("pause");
 	return 0;
 }

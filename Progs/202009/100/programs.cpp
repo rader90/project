@@ -10,21 +10,17 @@ int main(void){
 	// —мена кодировки cp1251
 	system("chcp 1251 > null");
 	// ќбъ€вление переменных
-	int a,b,i,x,s,j,n;
-	srand(time(0));
-	vector <int> vec;
-	cout << "¬ведите длину массива : ";
-	cin >> n;
-	vec.assign(n);
-	cout << "\n" << vec.size() << endl;
-	for(i=0;i<n;++i){
-		a=rand()%10+1;
-		vec[i]=a;
+	int i,j,a,b;
+	cout << "¬ведите высоту a : ";
+	cin >> a;
+	cout << "¬ведите ширину b : ";
+	cin >> b;
+	for(i=0;i<3;++i){
+		for(j=0;j<5;++j){
+		cout << "*";
+		};
 	};
-	for(i=0;i<n;++i){
-		cout << vec[i] << " ";
-	};
-	cout << "\n" << vec.size() << endl;
+	cout << endl;
 	system("pause");
 	return 0;
 }
