@@ -15,10 +15,22 @@ int main(void){
 	cin >> n;
 	for(i=0;i<n;++i){
 		cout << "\n";
+		for(m=0; m<n-i;++m){
+			cout << " ";
+		}
 		j=0;
 		for(;j<=i;++j){
+		
 		cout << "*";
 		};
+		j=0;
+		for(;j<=i-1;++j){
+		
+		cout << "*";
+		};
+		for(m=0; m<n-i;++m){
+			cout << " ";
+		}
 	};
 	cout << endl;
 	system("pause");

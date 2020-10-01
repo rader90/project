@@ -13,10 +13,9 @@ int main(void){
 	int i,j,n,m;
 	cout << "¬ведите высоту n : ";
 	cin >> n;
-	for(i=0;i<n;++i){
+	for(i=0;i<=n;++i){
 		cout << "\n";
-		j=0;
-		for(;j<=i;++j){
+		for(j=0;j<n-i;++j){
 		cout << "*";
 		};
 	};
