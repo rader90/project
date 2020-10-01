@@ -10,14 +10,13 @@ int main(void){
 	// —мена кодировки cp1251
 	system("chcp 1251 > null");
 	// ќбъ€вление переменных
-	int i,j,a,b;
-	cout << "¬ведите высоту a : ";
-	cin >> a;
-	cout << "¬ведите ширину b : ";
-	cin >> b;
-	for(i=0;i<a;++i){
+	int i,j,n,m;
+	cout << "¬ведите высоту n : ";
+	cin >> n;
+	for(m=0,i=0;i<n;++i){
+		++m;
 		cout << "\n";
-		for(j=0;j<b;++j){
+		for(j=0;j<m;++j){
 		cout << "*";
 		};
 	};
